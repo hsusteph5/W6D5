@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'K2D', sans-serif;
+  margin: auto;
+  width: 40%;
+}
+
+
+
+
+h2 {
+  font-family: 'K2D', sans-serif;
+  margin: auto;
+  font-size: 35px;
+  width: 100%;
+}
+
+#clock-container {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 580px;
+  height: 120px;
+  background-color: orange;
+  margin: auto;
+  border: 2px solid black;
+  color: white;
+}
+
+#clock-container > div {
+
+}
+
+#time {
+  display: flex;
+  justify-content: space-between;
+}
+
+#date {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
