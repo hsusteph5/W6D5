@@ -6,7 +6,6 @@ h1 {
 
 
 
-
 h2 {
   font-family: 'K2D', sans-serif;
   margin: auto;
@@ -38,4 +37,35 @@ h2 {
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
+}
+
+#tabs {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+#tabs li {
+  display: inline-block;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#tabs > li > h1 {
+  font-size: 20px;
+  width: 64px;
+  text-align: center;
+}
+
+article {
+  width: 200px;
+  background-color: lightblue;
+  height: 200px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
